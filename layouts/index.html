@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">Get Started</a>
+      <p class="meta"><strong>Free to use for interactive runs (even for enterprises).</strong><br />You need a <a href="#">license</a> ONLY for non-interactive runs (like CI/CD, scheduled runs etc.)</p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4"><a href="#">Get started</a></h2>
+        <p>Create your first test within a few minutes. Follow our <a href="#">Installation tutorial</a> and <a href="#">Create first test</a> tutorial.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4"><a href="#">Full documentation ⚡️</a></h2>
+        <p>Full CAT documentation, with every feature described in detail.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4"><a href="#">Release notes</a></h2>
+        <p>See what's new in CAT, high-level details about every new CAT version.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4"><a href="#">Roadmap</a></h2>
+        <p>Are you interested in what new features will come to CAT and when?</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4"><a href="#">License</a></h2>
+        <p>TLDR: free for interactive use (<em>YOU</em> run the tests), license needed for non-interactive use - CI/CD, scheduler or whatever machine runs the tests. See <a href="#">full text of terms of use</a>.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4"><a href="#">References</a></h2>
+        <p>Many big and small companies form different industries use CAT to ensure data quality. See the references.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
