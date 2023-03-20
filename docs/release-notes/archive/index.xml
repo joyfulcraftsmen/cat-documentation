@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archive on </title>
+    <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/</link>
+    <description>Recent content in Archive on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Mar 2023 14:08:59 +0100</lastBuildDate><atom:link href="https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAT 0.4.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.4.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.4.0/</guid>
+      <description>Install CAT from JC private PowerShell feed #Installation is now much easier and can be done even from Azure DevOps Microsoft hosted agent.
+First, you&amp;rsquo;ll need to generate a personal access token. Go to dev.azure.com and generate one:
+Then, click on &amp;ldquo;+ New Token&amp;rdquo; and fill in these values:
+Now you can run this script to get CAT. When you are prompted for credentials, fill in your email as user name and the PAT token as password - !</description>
+    </item>
+    
+    <item>
+      <title>CAT 0.3.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.3.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.3.0/</guid>
+      <description>PowerShell Module #PowerShell module has now more commands.
+Get-Command -Module CAT Most important new one is Invoke-CatProject. It is a short hand for
+opening the project and loading data sources and tests invoking all tests display nicely formatted summary. PowerShell module now finally displays progress durring the test execution..
+So in the basic scenario, when you always need to re-read the .cat.yaml project, run all tests and see formatted results, just use</description>
+    </item>
+    
+    <item>
+      <title>CAT 0.2.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.2.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.2.0/</guid>
+      <description>What&amp;rsquo;s new?
+Tolerance in Percents #You can now set tolerance in percents and don&amp;rsquo;t care about absolute numbers.
+There are two values that are being compared. So, what is the base for calculate the percentage? In CAT it is always the lower of the two numbers. This is probably a minor thing (the values are supposed to be almost the same anyway), but it&amp;rsquo;s good to know about that.</description>
+    </item>
+    
+    <item>
+      <title>CAT 0.1.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.1.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.1.0/</guid>
+      <description>Things changed a bit, read carefully please&amp;hellip;
+❗❗ The current version is unfortunatelly compatible only with PowerShell 7 (will be addressed). Please try out CAT on PowerShell 7.Versioning #Why has this version number 0.1.0? We use Semantic versioning - and in this release there is new functionality (basic output handling, such as renaming TRX files).
+Things are renamed #What got renamed? Basically everything:
+JC.Unit CAT Connection / Source Data Source Connection Type Provider TestDescription Description TestQuerySource First Data Source (or just Data Source) TestQuery First Query (or just Query) ReferenceQuerySource Second Data Source ReferenceQuery Second Query TestTyppe Expectation ZeroRows SetIsEmpty SameData SetsMatch RowCount SetRowCount For naming of tests you can use either:</description>
+    </item>
+    
+    <item>
+      <title>CAT 0.0.2</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.0.2/</link>
+      <pubDate>Fri, 17 Mar 2023 23:32:35 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.0.2/</guid>
+      <description>Compared to CAT 0.0.1, this version contains only one fix:
+The installer now works with both PowerShell 5 and newer versions of PowerShell. (#16002) </description>
+    </item>
+    
+    <item>
+      <title>CAT 0.0.1</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.0.1/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/archive/0.0.1/</guid>
+      <description>Welcome to the very first version of CAT - CAT 0.0.1!
+❗❗ This is not a production ready release. Might not yet be as stable as it&amp;rsquo;s predecessor (JC.Unit), but it brings lots of new stuff ;-) So, what&amp;rsquo;s new?
+Versioning #ALL components of CAT will be versioned and released together:
+core functionality PowerShell module GUI (CAT runner) - not yet in this version DevOps task - not yet in this version documentation &amp;hellip; All will be found on one place (TODO, where), with version specified.</description>
+    </item>
+    
+  </channel>
+</rss>

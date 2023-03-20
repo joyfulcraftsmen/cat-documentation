@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joyfulcraftsmen.github.io/cat-documentation/sitemap.xml

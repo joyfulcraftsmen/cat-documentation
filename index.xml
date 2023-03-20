@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automated Tests for Your Data on </title>
+    <link>https://joyfulcraftsmen.github.io/cat-documentation/</link>
+    <description>Recent content in Automated Tests for Your Data on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2020-2021 Henk Verlinde</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:47:36 +0000</lastBuildDate>
+    
+        <atom:link href="https://joyfulcraftsmen.github.io/cat-documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/blog/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:55 +0000</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/</guid>
+      <description>docs xxxxxxx</description>
+    </item>
+    
+  </channel>
+</rss>

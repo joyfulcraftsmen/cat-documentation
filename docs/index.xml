@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on </title>
+    <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/</link>
+    <description>Recent content in Docs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate><atom:link href="https://joyfulcraftsmen.github.io/cat-documentation/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>References</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/references/</link>
+      <pubDate>Fri, 17 Mar 2023 18:06:37 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/references/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/license/</link>
+      <pubDate>Fri, 17 Mar 2023 17:55:56 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/license/</guid>
+      <description>here comes the license agreement
+TODO: name it &amp;ldquo;License&amp;rdquo;? or &amp;ldquo;Terms of use&amp;rdquo;? What is difference?</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/roadmap/</link>
+      <pubDate>Fri, 17 Mar 2023 17:55:48 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/roadmap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

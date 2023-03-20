@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent releases on </title>
+    <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/</link>
+    <description>Recent content in Recent releases on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Mar 2023 14:07:50 +0100</lastBuildDate><atom:link href="https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAT 0.7.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/0.7.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/0.7.0/</guid>
+      <description>Logging #Default logging level was changed Information. CAT is now logging not only to files (by default to Logs directory next to your project file), but also to standard output. That means you will receive lot&amp;rsquo;s of information in the PowerShell window where you are running CAT or in the logs in Azure DevOps pipelines.
+As mentioned, you&amp;rsquo;ll now get this behavior by default, so just run:
+Invoke-CatProject ./CompareProdAndUat.cat.yaml To get previous behavior, run</description>
+    </item>
+    
+    <item>
+      <title>CAT 0.6.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/0.6.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/0.6.0/</guid>
+      <description>Output test results in MS Excel #Remember you have more options for storing results of tests?
+Output: trx, yaml, json Now, there is one more - the always requested .xlsx format:
+Output: xlsx Use trx for Azure DevOps, json for further automation, xlsx for your users :)
+The output defaults to TestResults directory with a timestamp in a file name. But if you need more control, you can do the same tricks as with all other formats:</description>
+    </item>
+    
+    <item>
+      <title>CAT 0.5.0</title>
+      <link>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/0.5.0/</link>
+      <pubDate>Fri, 17 Mar 2023 23:01:11 +0100</pubDate>
+      
+      <guid>https://joyfulcraftsmen.github.io/cat-documentation/docs/release-notes/recent/0.5.0/</guid>
+      <description>Create a new project more easily #In PowerShell module, there is a new command: New-CatProject. You can use it like this:
+cd D:\Testing\MyProjectName New-CatProject MyProjectName It will create a new file in your current directory (so navigate using cd ... first): MyProjectName.cat.yaml - an almost empty project file with one data source and one test.
+In future we consider adding more switches, such as where to store data sources, where to store tests etc.</description>
+    </item>
+    
+  </channel>
+</rss>
